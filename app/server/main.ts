@@ -12,8 +12,8 @@ import path from "path";
 import { Query, Mutation, Subscription } from "./graphql/graphql";
 
 const __dirname = import.meta.dirname;
-const HOST = process.env.HOST || "localhost";
-const PORT = parseInt(process.env.PORT || "3000");
+const HOST = process.env.VITE_HOST || "localhost";
+const PORT = parseInt(process.env.VITE_PORT || "3000");
 const MOTD = `\n\n\n\x1b[35m-server is listening-\x1b[0m\n\nhttp://${HOST}:${PORT}\nhttp://localhost:${PORT}\n\n\n`;
 
 const app = express();
