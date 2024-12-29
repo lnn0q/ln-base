@@ -6,7 +6,7 @@ export const Route = createLazyFileRoute("/book")({
 });
 
 function RouteComponent() {
-  return <div>Hello "/book"!</div>;
+  return <div>"/book"</div>;
 }
 
 const getBookQuery = gql`

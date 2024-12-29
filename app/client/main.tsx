@@ -20,10 +20,8 @@ declare module "@tanstack/react-router" {
 }
 
 // Apollo
-// const HOST = import.meta.env.HOST || "localhost";
-// const PORT = import.meta.env.PORT || "3000"
-const HOST = "localhost";
-const PORT = "4000";
+const HOST = import.meta.env.VITE_HOST || "localhost";
+const PORT = import.meta.env.VITE_PORT || "3000";
 const uri = `http://${HOST}:${PORT}/graphql`;
 console.log(uri);
 
