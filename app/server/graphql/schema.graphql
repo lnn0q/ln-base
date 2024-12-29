@@ -1,0 +1,14 @@
+type Query {
+  booksMany: [Book]!
+  bookOne(input: BookInput!): [Book]!
+}
+
+type Book {
+  id: ID!
+  title: String!
+  author: String!
+}
+
+input BookInput {
+  id: ID!
+}

@@ -1,4 +1,4 @@
-# lnn0q :zzz: - template
+:zzz: template
 
 ## Stack
 
@@ -6,17 +6,16 @@
 - React
 - TanStackRouter
 - Express
-- Prisma
-- MariaDB
+- Prisma - MariaDB (todo)
 - GraphQL
 - Vite
 
 `npx @chakra-ui/cli snippet add --outdir app/client/components/ui/`
 
+`npx graphql-code-generator init`
+
 ### Useful links:
 
-- Theming for ChakraUI-v3 (no docs)
-`https://github.com/chakra-ui/chakra-ui/discussions/9009`
+- Theming for ChakraUI-v3 (no docs) -> [link](https://github.com/chakra-ui/chakra-ui/discussions/9009)
 
-- TanStackRouter
-`https://tanstack.com/router/latest`
+- TanStackRouter -> [link](https://tanstack.com/router/latest)

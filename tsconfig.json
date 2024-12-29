@@ -17,7 +17,9 @@
     "paths": {
       "@app/*": ["./app/*"],
       "@client/*": ["./app/client/*"],
-      "@server/*": ["./app/server/*"]
+      "@server/*": ["./app/server/*"],
+      "@generated/*": ["./__generated__/*"],
+      "@root/*": ["./*"]
     }
   }
 
